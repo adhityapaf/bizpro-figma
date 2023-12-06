@@ -158,6 +158,18 @@ class MyHomePage extends StatelessWidget {
                 ),
               ],
             ),
+          ),
+          Container(
+            height: 661.15,
+            width: double.infinity,
+            color: Colors.white,
+            padding: const EdgeInsets.symmetric(horizontal: 135),
+            child: Column(children: [
+              Container(
+                margin: const EdgeInsets.only(top: 108),
+                child: Column(children: [Text('How it works')]),
+              )
+            ]),
           )
         ]),
       ),
